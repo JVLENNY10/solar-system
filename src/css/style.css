@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.page {
+  background-color: black;
+  color: white;
+  font-family: sans-serif;
+  padding: 50px 0 25px;
+  text-align: center;
+}
+
+.solar-system h2, .missions h2 {
+  font-size: 180%;
+  margin: 50px 0 30px;
+}
+
+.solar-system-planets, .missions-infos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 0 auto;
+  max-width: 90%;
+}
+
+.planet-card {
+  font-size: 130%;
+  margin-top: 10px;
+}
+
+.planet-card img {
+  margin-top: 5px;
+  width: 200px;
+}
+
+.mission-card {
+  background-color: rgba(147, 147, 147, 0.5);
+  border-radius: 15px;
+  font-size: 130%;
+  margin-bottom: 25px;
+  max-width: 300px;
+  min-width: 300px;
+  padding: 20px 0 5px;
+}
+
+.mission-card p {
+  margin-bottom: 15px;
+}
